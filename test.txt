@@ -1,0 +1,21 @@
+mkdir learn_git_again.
+cd learn_git_again.
+echo third.txt.
+git init
+git add .
+git commit -m "adding thrid.txt"
+git remote add origin https://github.com/ramziisi/fichegitandgithub.git
+git push -u origin master
+git status
+git checkout -- thrid.txt
+echo fourth.txt
+git init
+git add fourth.txt
+git commit -m "adding fourth.txt"
+git rm third.txt
+git commit -m "remove third.txt"
+git add .
+git push -u origin master
+git log git push -u origin mastergit push -u origin master
+git config --global core.pager 'cat'
+git config --list
